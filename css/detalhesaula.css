@@ -1,0 +1,158 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 25%;
+    min-width: 10px;
+    min-height: 10px;
+    height: auto;
+    margin: 1rem;
+    position: relative;   
+    font-size:2rem;
+    text-align: center;
+    background-color: hsl(40, 91%, 50%);
+    font-family: 'Noto Serif', serif;
+    
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.linha2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.coluna2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+
+}
+
+body{
+    background-color: hsl(25,100%,45%);
+}
+.seta{
+    position: absolute;
+    top: 0.5rem;
+    margin-left: -10rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 25%;
+    min-width: 150px;
+    min-height: 10px;
+    height: auto;
+    position: relative;   
+    font-size:1.5rem;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    font-family: 'Noto Serif', serif;
+    
+    
+
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 25%;
+    min-width: 150px;
+    min-height: 10px;
+    height: auto;
+    position: relative;   
+    font-size:1.5rem;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    margin-top: 2rem;
+    font-family: 'Noto Serif', serif;
+
+}
+.Formas_de_Pagamento{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 20%;
+    min-width: 10px;
+    min-height: 10px;
+    height: auto;
+    margin: 1rem;
+    position: relative;   
+    font-size:1.5rem;
+    text-align: center;
+    background-color: hsl(34, 98%, 52%);
+    width: auto;
+    margin-top: 3rem;
+    font-family: 'Noto Serif', serif;
+}
+.cartão{
+    width: 7%;
+    position: relative;
+    margin: auto;
+    top: 3rem;
+    right: -7rem;
+    font-family: 'Noto Serif', serif;
+    
+
+}
+.Pagamentos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 20%;
+    min-width: 10px;
+    min-height: 10px;
+    height: auto;
+    margin: 1rem;   
+    font-size:1.5rem;
+    text-align: center;
+    background-color: white;
+    width: auto;
+    font-family: 'Noto Serif', serif;
+
+}
+a { color: inherit;
+text-decoration: none; } 
+

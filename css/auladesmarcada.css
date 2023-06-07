@@ -1,0 +1,59 @@
+.grupo-conjuntos{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+body{
+    
+    background-color: hsl(25,100%,45%);
+}
+
+.Certinho{
+    width: 30%;
+    display: block;
+    flex-direction: column;
+    margin: auto;
+}
+.voltar_inicio{
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 10rem;
+    min-width: 100px;
+    min-height: 10px;
+    height: auto;
+    margin: 1rem;
+    position: relative;   
+    font-size:1.0rem;
+    text-align: center;
+    background-color: hsl(8, 91%, 50%);
+    margin: auto;
+    top: 6rem;
+    font-family: 'Noto Serif', serif;
+
+}
+.Texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 70%;
+    min-height: 140px;
+    height: auto;
+    position: relative;   
+    font-size:1.5rem;
+    text-align: center;
+    background-color: hsl(40,91%,50%);
+    margin: auto;
+    top: 3rem;
+    font-family: 'Noto Serif', serif;
+
+}
+a { color: inherit;
+    text-decoration: none; } 

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova - JS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css?v=2">
+    <script src="js/tela_conversa_prof.js"></script> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="contato">
+            <img class="img-usuario" src="img/user.png" alt="usuario image profile">
+            <div class="info-usuario">
+                <h4 class="nome-usuario">Ana Coutinho</h4>
+                <p class="descricao-usuario">aluna</p>
+            </div>
+        </div>
+        <nav class="nav-acoes">
+            <ul class="lista-acoes">
+                <li>
+                    <button id="search">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </li>
+                <li>
+                    <a href="chatprofessores.html" id="close">
+                        <i class="fa fa-window-close"></i>
+                    </a>
+                    
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="msg-panel">
+        <section class="msg-usuario">
+            <div class="msg-titulo">
+                <h2>Ana</h2>
+                <h3>Horário</h3>
+            </div>
+            <div class="bolha-usuario">
+                <p>Consegui fazer o exércicio depois, muito obrigada</p>
+            </div>
+            <span id="notificacao-msg-1"></span>
+        </section>
+        <section class="msg-resposta">
+            <div class="msg-titulo-invertida">
+                <h2>Lúcia</h2>
+                <h3>Horário</h3>
+            </div>
+            <div class="bolha-resposta">    
+                <p>Magina! Qualquer dúvida pode me mandar por aqui </p>
+            </div>
+        </section>
+        <section class="msg-usuario">
+            <div class="msg-titulo">
+                <h2>Ana</h2>
+                <h3>Horário</h3>
+            </div>
+            <div class="bolha-usuario">
+                <p>OK, combinado.</p>
+            </div>
+            <span id="notificacao-msg-2"></span>
+        </section>
+        <section class="msg-usuario">
+            <div class="msg-titulo">
+                <h2>Ana</h2>
+                <h3>Horário</h3>
+            </div>
+            <div class="bolha-usuario">
+                <p>Muito orbigada professora</p>
+            </div>
+            <span id="notificacao-msg-3"></span>
+        </section>
+        <section class="msg-resposta">
+            <div class="msg-titulo-invertida">
+                <h2>Lúcia</h2>
+                <h3>Horário</h3>
+            </div>
+            <div class="bolha-resposta">    
+                <p>Até a próxima aula</p>
+            </div>
+            <span id="notificacao-msg-4"></span>
+        </section>
+    </main>
+    <div class="bloco-envio-msg">
+        <input class="entrada-msg" type="text" placeholder="Digite sua mensagem">
+        <button class="botao-enviar">Enviar</button>
+    </div>
+</body>
+</html>

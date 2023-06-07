@@ -1,0 +1,83 @@
+body{
+    background-color:hsl(8, 91%, 50%) ;
+}
+header{
+    padding-right: 10rem;
+    padding-top: 2rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    min-width: 18.75rem;
+    min-height: 5rem;
+    height: 32rem;
+    margin: 1rem;
+    position: relative;   
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin-top: 3.5rem;
+
+}
+.perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 25%;
+    min-width: 10px;
+    min-height: 10px;
+    height: auto;
+    width: 15rem;
+    margin: 1rem;
+    position: relative;   
+    font-size:2rem;
+    text-align: center;
+    background-color: hsl(34, 98%, 52%);
+    font-family: 'Noto Serif', serif;
+}
+.usuariotexto, .telefone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 25%;
+    min-width: 10px;
+    min-height: 10px;
+    height: auto;
+    width: 15rem;
+    margin: 1rem;
+    position: relative;   
+    font-size:2rem;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+.texto, .numero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 25%;
+    min-width: 10px;
+    min-height: 10px;
+    height: auto;
+    width: 23rem;
+    margin: 1rem;
+    position: relative;   
+    font-size:2rem;
+    text-align: center;
+    background-color: rgb(239, 233, 235);
+    font-family: 'Noto Serif', serif;
+}

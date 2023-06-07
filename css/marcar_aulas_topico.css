@@ -1,0 +1,121 @@
+body{
+    background-color: hsl(25,100%,45%);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 25%;
+    min-width: 10px;
+    min-height: 10px;
+    height: auto;
+    margin: 1rem;
+    position: relative;   
+    font-size:2rem;
+    text-align: center;
+    background-color: hsl(40, 91%, 50%);
+    font-family: 'Noto Serif', serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.barrapesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 25%;
+    min-width: 9px;
+    min-height: 9px;
+    height: auto;
+    width: 15rem;
+    margin: 1.5rem;
+    position: relative;   
+    font-size:2rem;
+    text-align: center;
+    background-color: hsl(34, 98%, 52%);
+}
+.lupa{  
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.pesquisa input {
+	font-size: 0.7rem;
+  }
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    min-width: 18.75rem;
+    min-height: 5rem;
+    height: 32rem;
+    margin: 1rem;
+    position: relative;   
+    font-size: 1rem;
+    text-align: center;
+    background-color:hsl(8, 91%, 50%) ;
+    border-radius: 1rem;
+
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 25%;
+    min-width: 15rem;
+    min-height: 3rem;
+    height: auto;
+    position: relative;   
+    font-size:2rem;
+    text-align: center;
+    font-style: normal;
+    margin-top: 1rem;
+}
+.seta{
+    padding-left: 0.5rem;
+    padding-top: 0.05rem;
+}
+.titulo{
+    padding-left: 0.5rem;
+    padding-top: 0.05rem;
+    font-family: 'Noto Serif', serif;
+}
+.botao1, .botao2, .botao3, .botao4,.botao5,.botao6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 25%;
+    min-width: 15rem;
+    min-height: 3rem;
+    height: auto;
+    position: relative;   
+    font-size:2rem;
+    text-align: center;
+    background-color: rgb(246, 221, 221);
+    font-style: normal;
+    margin-top: 1rem;
+    font-family: 'Noto Serif', serif;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
